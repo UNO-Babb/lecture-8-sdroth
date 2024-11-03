@@ -7,6 +7,7 @@ def main():
     name = info[0]
     rate = info[9]
     print(name, "had a rating of", rate, "and threw", td, "touchdowns.")
+    
   myFile.close()
 
 if __name__ == '__main__':
